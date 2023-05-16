@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudando DOM</title>
+    <style>
+        body{
+            background-color: pink;
+            color: white;
+            font: normal 18pt arial;
+        }
+    </style>
 </head>
 <body>
-   <h1>Dom</h1> 
+   <h1>Estudando Dom</h1> 
+   <P>Aqui vai o resultado</P>
+   <p>aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+   <div  id="flosita">Clique aqui</div>
+   <script>
+   // window,prompt('qual seu segundo nome?')
+    //var nome = 'Ana '
+//window.document.write(`olá, mundo! ${nome} `)
+//window.document.write(window.document.URL)
+var p1 = window.document.getElementsByTagName('p')[1]
+//window.document.write('Está escrito asim: '+p1.innerhtml)
+var corpo = window.document.body
+//corpo.style.background = 'gray'
+//p1.style.color = 'blue'
+//window.alert(p1.innerText)
+//var d = window.document.getElementById('fofinha')
+//d.style.background = "grey"
+//d.innerText = 'estou aguardando...'
+//window.document.getElementById('fofinha').innerText = 'Olá!'
+//var meh = window.document.getElementsByClassName('flosita')[0]
+//meh.innerHTML = "oi"
+
+//com nome não deu certo em nehuma tentativa
+//var mehe = window.document.getElementsByName('flosita')[0]
+//mehe.innerText = "olite"
+
+//melhor método
+var d = window.document.querySelector('div#flosita') // se fosse class seria . já que é id #
+d.style.background = 'blue'
+
+   </script>
 </body>
 </html>
