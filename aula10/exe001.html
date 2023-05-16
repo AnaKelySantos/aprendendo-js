@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9</title>
+    <style>
+        div#cocota{
+            background-color: rgb(42, 139, 42);
+            font: normal 20pt Arial;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="cocota" >
+        INTERAJA...
+    </div>
+
+    <script>
+        var c = window.document.getElementById('cocota')
+
+            c.addEventListener('click', clicar)
+            c.addEventListener('mouseenter', entrar)
+            c.addEventListener('mouseout', sair)
+
+            function clicar() {
+                
+                c.innerText = 'clicou!'
+                c.style.backgroundColor = 'blue'
+            }
+
+            function entrar() {
+                
+                c.innerText = 'entrou!'
+                c.style.backgroundColor = 'pink'
+                
+            }
+
+            function sair() {
+
+                c.innerText = 'saiu!'
+                c.style.backgroundColor = 'yellow'
+                
+            }
+    </script>
+</body>
+</html>
