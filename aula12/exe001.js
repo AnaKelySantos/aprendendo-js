@@ -1,11 +1,11 @@
-var idade = 17
+var idade = 19
 
 if (idade == 18) {
     
     console.log(`seu ultimo ano de gratuidade`)
-} else {
+} else  if (idade<18) {
 
-    if (idade<18) {
+     
 
         console.log(`tu ainda tem gratuidade`)
         
@@ -13,4 +13,3 @@ if (idade == 18) {
         console.log(`sua gratuidade acabou`)
     }
     
-}
