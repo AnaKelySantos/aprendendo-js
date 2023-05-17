@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12</title>
+    <style>
+        body{
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+
+<div id="teste"></div>
+
+    <script>
+
+        var a = 4
+        var b = 5
+        var teste = window.document.querySelector(`div#teste`)
+
+                if (a<b) {
+
+                    teste.innerHTML = `primeiro bloco`            
+                    
+            }else{
+
+                if (a == b) {
+                    
+                    teste.innerHTML = `segundo bloco`
+                }else{
+                    teste.innerHTML = `terceiro bloco`
+                }
+            }
+            
+
+    </script>
+    
+</body>
+</html>
