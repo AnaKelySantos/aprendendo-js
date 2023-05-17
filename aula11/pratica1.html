@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 1</title>
+    <style>
+        body{
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+<h1>Nacional ou Estrageiro</h1>
+
+Pais de Naturalidade: <input type="text" name="pais" id="txtpais">
+
+<input type="button" value="Verificar" onclick="verifique()">
+
+<div id="res">
+
+</div>
+
+<script>
+
+function verifique(){
+
+    var txtp = window.document.querySelector('input#txtpais')
+    var res = window.document.querySelector(`div#res`)
+    var pais = (txtp.value)
+    res.innerHTML = `tu é natural de: ${pais}`
+
+    if (pais == 'brasil'){
+    res.innerHTML += `<p>Brasileiro</p>`
+    }else{
+    res.innerHTML += `<p>estrangeiro</p>`
+}
+
+}
+
+
+
+</script>
+
+</body>
+</html>
