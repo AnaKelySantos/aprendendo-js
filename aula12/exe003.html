@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12</title>
+    <style>
+        body{
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Semanas de gestação de acordo com o Mês</h1>
+    Meses: <input type="number" id="txtmeses">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res">Resultado: </div>
+    <script>
+
+        function calcular() {
+            var txtm = window.document.querySelector('input#txtmeses')
+            var res = window.document.querySelector(`div#res`)
+            var meses = Number(txtm.value)
+            res.innerHTML += `<p>${meses} meses é: </p>`
+        switch (meses) {
+            case 1: 
+            res.innerHTML += (`4 semanas`)
+                break;
+                case 2: 
+                res.innerHTML += (`8 semanas`)
+                break;
+                case 3: 
+                res.innerHTML += (`12 semanas`)
+                break;
+                case 4: 
+                res.innerHTML += (`16 semanas`)
+                break;
+                case 5: 
+                res.innerHTML += (`20 semanas`)
+                break;
+                case 6: 
+                res.innerHTML += (`24 semanas`)
+                break;
+                case 7: 
+                res.innerHTML += (`28 semanas`)
+                break;
+                case 8: 
+                res.innerHTML += (`32 semanas`)
+                break;
+                case 9: 
+                res.innerHTML += (`36 semanas`)
+                break;
+            default:
+            res.innerHTML += (`nasceu`)
+                break;
+        }        
+        }
+    </script>
+</body>
+</html>
+
