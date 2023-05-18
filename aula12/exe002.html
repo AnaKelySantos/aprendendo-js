@@ -22,17 +22,18 @@
         var hora = window.document.querySelector(`div#hora`)
         
         hora.innerHTML = `São ${hor} horas`
+        
                 if (hor>4) {
 
-                    hora.innerHTML = `bom dia`            
+                    hora.innerHTML += ` bom dia`            
                     
             }else if (hor>11) {
                     
-                    hora.innerHTML = `boa tarde`
+                    hora.innerHTML += ` boa tarde`
                 }else if (hor>16) {
-                    hora.innerHTML = `boa noite`
+                    hora.innerHTML += ` boa noite`
                 } else {
-                    hora.innerHTML = `boa madrugada`
+                    hora.innerHTML += ` boa madrugada`
                     
                 }
             
