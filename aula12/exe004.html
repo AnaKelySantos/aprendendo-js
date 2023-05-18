@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12</title>
+    <style>
+        body{
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dias da Semana</h1>
+    
+    <div id="res">Resultado: </div>
+    <script>
+            var txtd = new Date()
+            var dias = txtd.getDay()
+            var res = window.document.querySelector(`div#res`)
+        switch (dias) {
+            case 0: 
+                res.innerHTML += (`domingo`)
+                break;
+            case 1: 
+            res.innerHTML += (`segunda`)
+                break;
+                case 2: 
+                res.innerHTML += (`terça`)
+                break;
+                case 3: 
+                res.innerHTML += (`quarta`)
+                break;
+                case 4: 
+                res.innerHTML += (`quinta`)
+                break;
+                case 5: 
+                res.innerHTML += (`sexta`)
+                break;
+                case 6: 
+                res.innerHTML += (`sábado`)
+                break;
+
+   
+            default:
+            res.innerHTML += (`dia invalido`)
+                break;
+        }  
+              
+        
+    </script>
+</body>
+</html>
+
