@@ -3,6 +3,7 @@ function carregar() {
     var img = window.document.getElementById('dois')
     var data = new Date()
     var hora = data.getHours()
+    
 
     texto.innerHTML = `Agora são ${hora} horas.`
     if (hora>4 && hora<12) {
