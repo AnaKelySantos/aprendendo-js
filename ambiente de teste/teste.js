@@ -1,7 +1,7 @@
 //console.log(`tudo bem`)
 
-var c = 1
-while (c<=6) {
+var c = 6
+while (c>=1) {
     console.log(`tudo bem`)
-    c++
+    c--
 }
