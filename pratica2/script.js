@@ -9,7 +9,7 @@ function verificar() {
 
 
     if (fAno == 0 || fAno > ano) {
-        window.alert(`deu errado`)
+        window.alert(`Dados incorretos! Tente novamente.`)
     } else {
         var fsex = document.getElementsByName(`radsex`)
         var idade = ano - fAno
@@ -23,7 +23,7 @@ function verificar() {
             } else if (idade < 18) {
                 res.innerHTML = `Jovem de ${idade} anos do sexo  ${genero}.`
                 res.innerHTML += `<img src="fotos/homemjovem.jpg">`
-            } else if (idade < 64) {
+            } else if (idade < 60) {
                 res.innerHTML = `Adulto de ${idade} anos do sexo  ${genero}.`
                 res.innerHTML += `<img src="fotos/homemadulto.jpg">`
             } else {
@@ -41,7 +41,7 @@ function verificar() {
             } else if (idade < 18) {
                 res.innerHTML = `Jovem de ${idade} anos do sexo  ${genero}.`
                 res.innerHTML += `<img src="fotos/mulherjovem.jpg">`
-            } else if (idade < 64) {
+            } else if (idade < 60) {
                 res.innerHTML = `Adulto de ${idade} anos do sexo  ${genero}.`
                 res.innerHTML += `<img src="fotos/mulheradulta.jpg">`
             } else {
