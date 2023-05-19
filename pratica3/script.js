@@ -8,7 +8,7 @@ for ( var c = num1; c >= num2; c++) {
     
 res.innerHTML =`Contando: <br>`
 res.innerHTML =`${c} `
-res.innerHTML =` `
+res.innerHTML =`<img src="/homemjovem.jpg">` 
 
 
 }
