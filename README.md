@@ -8,3 +8,4 @@
 # git salvando alteração
 
 * comando push
+* comando git pull
