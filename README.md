@@ -9,3 +9,4 @@
 
 * comando push
 * comando git pull
+* comando git f
