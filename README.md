@@ -6,3 +6,5 @@
  # salvando modificações
 
 # git salvando alteração
+
+* comando push
