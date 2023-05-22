@@ -15,10 +15,10 @@ a.length
 a.sort()
 //console.log(b)
 //console.log(a.length)
-for (c = 0; c <= 4; c++) {
-    var valores = a[c];
-    console.log(valores)
-    
+for (let c = 0; c <= b.length; c++) {
+    //var valores = a[c];
+    //console.log(valores)
+    console.log(b[c])
 }
 //console.log(`${a[2]}`)
 
