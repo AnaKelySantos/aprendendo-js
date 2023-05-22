@@ -29,3 +29,10 @@ a.sort()
 console.log(a)
 console.log(a.indexOf(`mila`))
 
+con = a.indexOf(`mila`)
+
+if (con == -1) {
+
+    console.log(`não encontrada`)
+    
+}
