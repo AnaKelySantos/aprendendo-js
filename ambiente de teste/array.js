@@ -22,7 +22,10 @@ a.sort()
 //}
 //console.log(`${a[2]}`)
 
-for (let c in a) {
+//for (let c in a) {
 
-    console.log(a[c])
-}
+ //   console.log(a[c])
+//}
+console.log(a)
+console.log(a.indexOf(`mila`))
+
