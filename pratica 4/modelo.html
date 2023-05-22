@@ -13,18 +13,21 @@
     </style>
 </head>
 <body>
-    <header><h1>Contador</h1></header>
+    <header><h1>Tabuada</h1></header>
 
-    <section> 
+    <section>
         <div id="um">
 
-            Início: <input type="number" id="txtum" name="txtum"><br>
-            Fim: <input type="number" id="txtdois" name="txtdois"><br>
-            Passo: <input type="number" id="txttres" name="txttres"><br>
+        <input type="number" id="txtnum">
 
-            <input type="button" value="contar" onclick="contar()">
+        <input type="button" value="ver" id="enviar" onclick="tabuada()">   
+
         </div>
-        <div id="dois">Preparando a contagem...</div>
+        <div id="dois">
+            <select name="tabuada" id="seltab" size="11">
+                <option>Digite um número acima</option>
+            </select>
+            </div>
   
     </section>
         
@@ -32,4 +35,4 @@
     <footer>@ AulaJS</footer>
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
