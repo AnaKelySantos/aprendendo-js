@@ -10,5 +10,13 @@ function parimp(n) {
         return `é impar`
     }
 }
-let res = parimp(4)
+//let res = parimp(4)
+//console.log(res)
+
+function parimp2(n1, n2) {
+         
+        return n1 + n2
+    
+}
+let res = parimp2(4,3)
 console.log(res)
