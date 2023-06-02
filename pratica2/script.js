@@ -46,7 +46,7 @@ function verificar() {
                 res.innerHTML += `<img src="fotos/mulheradulta.jpg">`
             } else {
                 res.innerHTML = `Idosa de ${idade} anos do sexo  ${genero}.`
-                res.innerHTML += `<img src="fotos/mulhervelha.jpg">`
+                
             }
 
         }
